@@ -1,0 +1,201 @@
+body{
+  background: #EBEBEB;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  color:  #7d7d7d;
+  font-size: 15px;
+  line-height: 1.6em;
+  background-image: url(https://unsplash.it/1500/1200/?random?gravity=east);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1, h2, h3{
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1{
+  color: #DD5555;
+  font-size: 30px;
+}
+
+h2{
+  font-size: 25px;
+  font-weight: 300;
+}
+
+h3{
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 2px;
+}
+
+h4{
+  font-size: 16px;
+  font-weight: 200;
+}
+
+p{
+  text-align: justify;
+}
+
+a{
+  color: #ccc;
+  text-decoration: none;
+}
+
+a:hover{
+  color: #DD5555;
+  text-decoration: none;
+}
+
+table{
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 1.6em;
+}
+
+/* First simple components */
+
+.destination_img{
+  width: 160px;
+}
+
+.flex-destination:{
+  display: flex;
+  justify-content: space-around;
+}
+
+
+.flex-img:{
+  display: flex;
+  background: white;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+  opacity: 0.8;
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
+  line-height: 30px
+}
+
+
+.btn-action {
+  background-color: #DD5555;
+  color: white;
+  font-weight: 500;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.btn-action:hover {
+  background-color: #C61414;
+  color: white;
+}
+
+.btn-link {
+  background-color: #DD5555;
+  color: white;
+  font-weight: 500;
+  width: 1000px;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.btn-link:hover {
+  background-color: #C61414;
+  color: white;
+}
+
+.img-circle{
+  border-radius: 50%;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.list-inline {
+  padding-left: 0;
+}
+
+.list-inline li {
+  display: inline-block;
+  padding: 20px;
+}
+
+.list-inline li i{
+  font-size: 45px;
+}
+
+.container{
+  width: 1000px;
+  margin: 30px auto;
+}
+
+.card{
+  background: white;
+  padding: 50px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+  opacity: 0.8;
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
+  line-height: 30px
+}
+
+.card-destination{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: white;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+  line-height: 30px
+}
+
+.card-text{
+  background: white;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+  line-height: 30px
+}
+
+
+/* Specific CSS rules */
+
+#avatar{
+  width: 100px;
+  height: 100px;
+  border: 3px solid #cccccc;
+}
+
+#rome_img{
+  transform: rotate(180deg);
+}
+
+#milan_img{
+  transform: rotate(90deg);
+}
+
+#destinations{
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 1.6em;
+}
+
+#destinations td{
+  padding: 10px;
+}
+
+#destinations_div{
+  background: white;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+  opacity: 0.8;
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
+  line-height: 30px
+}
+
+
